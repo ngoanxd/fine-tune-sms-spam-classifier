@@ -18,16 +18,18 @@ This project builds a **binary text classification model** to detect spam SMS me
 ##  Model Architecture
 
 The model uses BERT as a feature extractor and adds a custom classifier on top:
+Input Text
+   ↓
 BERT-base-uncased
-↓
-[CLS] token embedding (768-d)
-↓
-Linear Layer (768 → 512)
-↓
+   ↓
+[CLS] embedding (768-d)
+   ↓
+Dense (768 → 512)
+   ↓
 ReLU + Dropout
-↓
-Linear Layer (512 → 2)
-↓
+   ↓
+Dense (512 → 2)
+   ↓
 Softmax
 
 
