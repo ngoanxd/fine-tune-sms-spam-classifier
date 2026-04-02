@@ -1,5 +1,3 @@
-# fine-tune-sms-spam-classifier
-SMS Spam Classification using BERT and PyTorch
 #  SMS Spam Detection using BERT (Fine-tuning with PyTorch)
 
 This project builds a **binary text classification model** to detect spam SMS messages using a fine-tuned **BERT-base model** with a custom classification head.
